@@ -1,0 +1,11 @@
+[package]
+name = "bloxtree-cli"
+version.workspace = true
+edition.workspace = true
+description = "Command-line interface to a bloxtree store"
+
+[dependencies]
+bloxtree-core = { path = "../bloxtree-core" }
+clap = { version = "4", features = ["derive", "env"] }
+dirs = "6"
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }

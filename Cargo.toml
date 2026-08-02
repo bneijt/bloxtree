@@ -1,0 +1,11 @@
+[workspace]
+resolver = "3"
+members = [
+    "bloxtree-core",
+    "bloxtree-cli",
+    "bloxtree-fuse",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
